@@ -6,7 +6,12 @@
 
     <groupId>com.puxter</groupId>
     <artifactId>ftp-lib</artifactId>
+    <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
 
+    <modules>
+        <module>ftp-server</module>
+        <module>ftp-client</module>
+    </modules>
 
 </project>
